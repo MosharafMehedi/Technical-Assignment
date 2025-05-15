@@ -1,1 +1,1 @@
-###Day 1: Clickable Mock-Up Creation
+ Day 1: Clickable Mock-Up Creation
