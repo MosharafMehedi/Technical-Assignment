@@ -1,1 +1,1 @@
-# Technical-Assignment
+###Day 1: Clickable Mock-Up Creation
