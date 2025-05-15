@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chatbox</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="auth-container">
+        <div id="login-form">
+          <h2>LOGIN</h2>
+          <input id="login-email" type="email" placeholder="Email" />
+          <input id="login-password" type="password" placeholder="Password" />
+          <button onclick="login()">Login</button>
+          <a href="#" onclick="toggleAuth('signup')"
+            >Don't have an account? Sign up</a
+          >
+        </div>
+
+        <div id="signup-form" class="hidden">
+          <h2>SING UP</h2>
+          <input id="signup-email" type="email" placeholder="Email" />
+          <input id="signup-password" type="password" placeholder="Password" />
+          <button onclick="signup()">Sign Up</button>
+          <a href="#" onclick="toggleAuth('login')"
+            >Already have an account? Login</a
+          >
+        </div>
+      </div>
+
+      <div id="chat-container" class="hidden">
+        <div class="chat-header">
+          <h3>Chat Room</h3>
+          <button onclick="logout()">Logout</button>
+        </div>
+        <div id="chat-box"></div>
+        <input
+          id="message-input"
+          type="text"
+          placeholder="Type your message..."
+        />
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
