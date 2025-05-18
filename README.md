@@ -28,3 +28,16 @@ Type messages in the chatbox.
 Use the Logout button to sign out.
 No installation or server is needed:
 This project runs purely in the browser using HTML, CSS, and JavaScript.
+
+Days 3 to 4: Backend Development with WebSockets
+
+Frist Clone the Project and Install Dependencies by cmd
+{ 1. git clone <your-repo-url>
+2. cd <project-folder>
+3. npm install}
+Then Set Up .env File
+Install node modules and mysql with websocket
+npm init -y
+npm install express sequelize mysql2 bcryptjs jsonwebtoken dotenv cors socket.io
+Run backend project in node server.js
+run Frontend in index.html in any browser.
